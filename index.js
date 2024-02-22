@@ -1,5 +1,3 @@
-// Example: sudo node index.js -i wlp0s20f3 -g 192.168.4.1 -t 192.168.4.28 -p 500
-
 const arp = require('arpjs');
 let INTERFACE, GATEWAY_IP, TARGETS = [], INTERVAL;
 const args = process.argv.slice(2);
