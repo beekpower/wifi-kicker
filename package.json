@@ -1,0 +1,14 @@
+{
+  "name": "wifi-kicker",
+  "version": "1.0.0",
+  "description": "Simplest ARP WiFi Kicker Ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arpjs": "^1.2.0"
+  }
+}
